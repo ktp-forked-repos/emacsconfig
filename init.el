@@ -37,3 +37,6 @@
 
 ;; move with shift-arrow keys
 (windmove-default-keybindings 'shift)
+
+(add-to-list 'load-path "~/.emacs.d/elisp")
+(load "php-mode")
