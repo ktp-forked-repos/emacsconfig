@@ -38,5 +38,9 @@
 ;; move with shift-arrow keys
 (windmove-default-keybindings 'shift)
 
+;; load php mode
 (add-to-list 'load-path "~/.emacs.d/elisp")
 (load "php-mode")
+
+;; line numbering
+(global-linum-mode t)
