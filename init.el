@@ -44,3 +44,11 @@
 
 ;; line numbering
 (global-linum-mode t)
+
+;; F11 full-screen (requires wmctrl)
+(defun switch-full-screen ()
+  (interactive)
+  (shell-command "wmctrl -r :ACTIVE: -btoggle,fullscreen")
+)
+
+(global-set-key [f11] 'switch-full-screen)
