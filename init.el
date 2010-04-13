@@ -19,6 +19,8 @@
 ;; theme (maybe pick a better one later)
 (require 'color-theme)
 (color-theme-midnight)
+;; font
+(set-face-attribute 'default nil :font "DejaVu Sans Mono-10")
 
 ;; remove stupid menu bar stuff
 (if (fboundp 'menu-bar-mode) (menu-bar-mode -1))
