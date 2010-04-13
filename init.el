@@ -54,3 +54,6 @@
 )
 
 (global-set-key [f11] 'switch-full-screen)
+
+;; start the server for emacsclient
+(server-start)
